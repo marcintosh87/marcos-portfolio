@@ -1,0 +1,55 @@
+/* din condensed */
+@import url("https://use.typekit.net/jcq2ske.css");
+/* din light */
+@import url("https://use.typekit.net/jcq2ske.css");
+.btn-primary {
+  background-color: white;
+  color: #064663;
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgb(240, 240, 240);
+  color: #064663;
+  border-color: white;
+}
+.bg-dark-m {
+  background-color: #041c32;
+}
+
+.nav-link {
+  color: #ecb365 !important;
+}
+
+.din-condensed {
+  font-family: din-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.marcos {
+  font-family: din-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8vh;
+  text-transform: uppercase;
+}
+.marcos-subtitle {
+  font-family: bebas-neue-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2vh;
+  text-transform: uppercase;
+  color: #ecb365;
+}
+
+.profile-photo {
+  width: auto;
+  height: 80px;
+}
+
+.profile-header-links {
+  width: auto;
+  height: 30px;
+  margin: 5px 0px;
+}
