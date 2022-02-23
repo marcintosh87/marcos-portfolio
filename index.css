@@ -6,6 +6,8 @@
   background-color: white;
   color: #064663;
   border-color: white;
+  padding: 0px 8px;
+  font-family: din-condensed;
 }
 
 .btn-primary:hover {
@@ -19,6 +21,9 @@
 
 .nav-link {
   color: #ecb365 !important;
+}
+.m-secondary {
+  color: #ecb365;
 }
 
 .din-condensed {
@@ -52,4 +57,74 @@
   width: auto;
   height: 30px;
   margin: 5px 0px;
+}
+.cta-banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.cta-banner .bg {
+  height: auto;
+  width: 120%;
+}
+
+.cta-banner h3 {
+  font-family: Din-condensed;
+  font-size: 3vw;
+}
+.cta-banner h2 {
+  font-family: bebas-neue-pro, sans-serif;
+  font-size: 4vw;
+}
+.cta-banner p {
+  font-family: bebas-neue-pro, sans-serif;
+  font-size: 2vw;
+  width: 50%;
+}
+.cta-banner div {
+  flex-direction: row;
+}
+.bg-el-top-right {
+  position: absolute;
+  top: -130px;
+  right: 16px;
+  width: 50%;
+}
+.bg-el-center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .bg-el-top-right {
+    position: absolute;
+    top: -130px;
+    right: 16px;
+    width: 0%;
+  }
+  .cta-banner p {
+    font-family: bebas-neue-pro, sans-serif;
+    font-size: 3vw;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bg-el-top-right {
+    position: absolute;
+    top: -130px;
+    right: 16px;
+    width: 0%;
+  }
+  .cta-banner div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .cta-banner button {
+    width: 100%;
+    height: auto;
+    font-size: 3vw;
+  }
 }

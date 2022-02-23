@@ -27,13 +27,10 @@
 
     <title>Marcos Lopez Portfolio</title>
   </head>
-  <header>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark-m"
-      style="height: 130px"
-    >
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-m py-4">
       <div class="container-fluid">
-        <div class="container d-flex flex-row align-items-center">
+        <div class="container-fluid d-flex flex-row align-items-center">
           <div class="d-flex flex-column">
             <a
               href="https://www.linkedin.com/in/marclopez87/"
@@ -64,7 +61,7 @@
           />
           <a class="navbar-brand" href="#"
             ><div
-              class="d-flex flex-column justify-content-center align-items-center mt-3"
+              class="d-flex flex-column justify-content-center align-items-center"
             >
               <span class="marcos">Marcos Lopez</span>
               <span class="marcos-subtitle">Full Stack Software Engineer</span>
@@ -88,7 +85,7 @@
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Resume</a>
@@ -110,6 +107,27 @@
       </div>
     </nav>
   </header>
+  <!-- call to action buttons and resume download -->
+  <main class="cta-banner">
+    <img src="./img/gradientbg-500.png" alt="bg" srcset="" class="bg" />
+    <img src="./img/programmer-image.png" alt="" class="bg-el-top-right" />
+    <aside class="bg-el-center container">
+      <h3 class="m-secondary">Hello, my name is Marcos</h3>
+      <h2 class="din-condensed">I CREATE WEBSITES & APPS</h2>
+      <p>
+        I am a full stack software engineer that focusing on creating
+        applications with an emphasis on end users and business viability.
+      </p>
+      <div class="d-flex">
+        <a href="./docs/Marcos Lopez Resume-F (3).pdf" download
+          ><button class="btn btn-primary me-3">Download Resume</button></a
+        >
+        <a href="#about-me" download
+          ><button class="btn btn-primary">About Me</button></a
+        >
+      </div>
+    </aside>
+  </main>
   <body>
     <!-- Bootstrap Script -->
     <script
