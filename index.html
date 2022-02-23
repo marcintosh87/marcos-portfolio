@@ -75,8 +75,8 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -85,10 +85,10 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul
             class="navbar-nav ms-auto my-2 my-lg navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
+            style="--bs-scroll-height: 100px; z-index: 100"
           >
             <li class="nav-item">
-              <a class="nav-link" aria-current="page">Home</a>
+              <a class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a
@@ -98,8 +98,8 @@
                 >Resume</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+            <li class="nav-item m-secondary">
+              <a class="nav-link" href="https://www.google.com">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Skills</a>
@@ -123,12 +123,14 @@
       <h3 class="m-secondary">Hello, my name is Marcos</h3>
       <h2 class="din-condensed">I CREATE WEBSITES & APPS</h2>
       <p>
-        I am a full stack software engineer that focusing on creating
+        I am a full stack software engineer that focuses on creating
         applications with an emphasis on end users and business viability.
       </p>
       <div class="d-flex">
         <a href="./docs/Marcos Lopez Resume-F (3).pdf" download
-          ><button class="btn btn-primary me-3">Download Resume</button></a
+          ><button class="btn btn-primary me-3">
+            <i class="fa fa-download" aria-hidden="true"></i> Download Resume
+          </button></a
         >
         <a href="#about-me" download
           ><button class="btn btn-primary">About Me</button></a
@@ -136,6 +138,146 @@
       </div>
     </aside>
   </main>
+  <!-- project cards -->
+
+  <div class="album pb-5 bg-light">
+    <aside
+      class="container-fluid py-1 mb-4 text-center"
+      style="background-color: #041c32"
+    >
+      <section class="container mt-2">
+        <h4 style="text-transform: uppercase; color: #ecb365">Projects</h4>
+      </section>
+    </aside>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- single card -->
+        <div class="col">
+          <h4 class="din-condensed card-header">
+            IntraStellar - Web Application
+          </h4>
+          <div class="card shadow-sm">
+            <img src="./img/Intrastellar-thumb.png" alt="" class="p-2" />
+
+            <div class="card-body">
+              <h5>Internal Communication App</h5>
+              <p class="card-text">
+                This project was created as web application and a mobile
+                application using React Native
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Github
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Video Demo
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Site Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- single card end -->
+        <!-- single card -->
+        <div class="col">
+          <h4 class="din-condensed card-header">
+            IntraStellar - Mobile Application
+          </h4>
+          <div class="card shadow-sm">
+            <img
+              src="./img/intrasteallar-mobile.png"
+              alt=""
+              class="p-2 project"
+            />
+
+            <div class="card-body">
+              <h5>Internal Communication App</h5>
+              <p class="card-text">
+                This project was created as web application and a mobile
+                application using React Native
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Github
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Video Demo
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Site Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- single card end -->
+        <!-- single card -->
+        <div class="col">
+          <h4 class="din-condensed card-header">News Bank - Web Application</h4>
+          <div class="card shadow-sm">
+            <img src="./img/news-bank.png" alt="" class="p-2 project" />
+
+            <div class="card-body">
+              <h5>News Website App</h5>
+              <p class="card-text">
+                Using the news.org external API this project was created to
+                display current news in the world and give users the ability to
+                vote for local news visibility
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Github
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Video Demo
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Site Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- single card end -->
+      </div>
+    </div>
+  </div>
   <body>
     <!-- Bootstrap Script -->
     <script

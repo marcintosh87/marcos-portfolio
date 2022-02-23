@@ -19,9 +19,6 @@
   background-color: #041c32;
 }
 
-.nav-link {
-  color: #ecb365 !important;
-}
 .m-secondary {
   color: #ecb365;
 }
@@ -96,6 +93,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
+}
+.card-header {
+  text-align: center;
+  text-transform: uppercase;
+  color: #064663;
+}
+.project {
+  height: 100%;
+  width: auto;
 }
 
 @media screen and (max-width: 992px) {
