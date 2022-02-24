@@ -19,8 +19,12 @@
   background-color: #041c32;
 }
 
-.m-secondary {
-  color: #ecb365;
+.nav-link {
+  color: #ecb365 !important;
+}
+
+.secondary-m {
+  color: #ecb365 !important;
 }
 
 .din-condensed {
