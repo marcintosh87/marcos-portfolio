@@ -67,7 +67,7 @@
 }
 .cta-banner .bg {
   height: auto;
-  width: 120%;
+  width: 100%;
 }
 
 .cta-banner h3 {
@@ -121,6 +121,14 @@
     font-size: 3vw;
     width: 100%;
   }
+  .cta-banner .bg {
+    height: auto;
+    width: 100%;
+  }
+  .cta-banner h3 {
+    font-family: Din-condensed;
+    font-size: 0vw;
+  }
 }
 @media screen and (max-width: 500px) {
   .bg-el-top-right {
@@ -137,5 +145,46 @@
     width: 100%;
     height: auto;
     font-size: 3vw;
+  }
+  .profile-photo {
+    width: 0;
+    height: 0;
+  }
+  .marcos {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .marcos-subtitle {
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ecb365;
+  }
+  .cta-banner .bg {
+    height: auto;
+    width: 100%;
+  }
+  .cta-banner h2 {
+    font-family: bebas-neue-pro, sans-serif;
+    font-size: 4vw;
+    text-align: center;
+  }
+  .cta-banner h3 {
+    font-family: Din-condensed;
+    font-size: 0vw;
+  }
+  .cta-banner p {
+    font-family: bebas-neue-pro, sans-serif;
+    font-size: 2.9vw;
+    text-align: center;
+    width: 80%;
+    margin: 6px auto;
   }
 }
