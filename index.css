@@ -129,6 +129,9 @@
     font-family: Din-condensed;
     font-size: 0vw;
   }
+  .profile-header {
+    justify-content: space-around;
+  }
 }
 @media screen and (max-width: 500px) {
   .bg-el-top-right {
