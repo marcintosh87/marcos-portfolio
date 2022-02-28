@@ -88,9 +88,10 @@
 }
 .bg-el-top-right {
   position: absolute;
-  top: -130px;
+  top: -150px;
   right: 16px;
   width: 50%;
+  z-index: 0;
 }
 .bg-el-center {
   position: absolute;
@@ -107,6 +108,11 @@
 .project {
   height: 100%;
   width: auto;
+}
+.section-title {
+  position: relative;
+  z-index: 100;
+  top: 0%;
 }
 
 @media screen and (max-width: 992px) {
