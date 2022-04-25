@@ -9,11 +9,11 @@ const myChart = new Chart(ctx, {
     labels: [
       "HTML (6 years)",
       "CSS (6 years)",
-      "Javascript (5 years)",
-      "React.js (4 years)",
-      "React-Native.js (2 years)",
-      "Ruby on Rails (4 years)",
-      "Ruby (4 years)",
+      "Javascript (2 years)",
+      "React.js (1 year)",
+      "React-Native.js (1 year)",
+      "Ruby on Rails (1 year)",
+      "Ruby (1 year)",
     ],
     datasets: [
       {
